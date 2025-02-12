@@ -19,3 +19,15 @@ instance/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+#Installation
+ 
+ ssh - `ssh - git clone https://github.com/JXPROs/ai.git`
+
+ ssh - `ssh - cd ai`
+
+ `ssh - source venv/bin/activate`
+
+ `ssh - pip install -r requirements.txt`
+
+ `ssh - python __init__.py`
