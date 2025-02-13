@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    color: aliceblue;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(1, 10, 19);
 }

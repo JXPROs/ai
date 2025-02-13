@@ -1,33 +1,23 @@
-# Python
+# Fichiers compilés Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.so
 
-# Virtual Environment
+# Répertoires d'environnement virtuel
+/env/
 venv/
-env/
+
+# Fichiers de configuration locaux
 .env
 
-# Flask
-instance/
-.webassets-cache
+# Fichiers de log
+*.log
 
-# IDEs
-.vscode/
-.idea/
+# Dossiers de build
+build/
+dist/
+*.egg-info/
 
-# OS generated files
+# Système d'exploitation
 .DS_Store
 Thumbs.db
-
-#Installation
- 
- ssh - `ssh - git clone https://github.com/JXPROs/ai.git`
-
- ssh - `ssh - cd ai`
-
- `ssh - source venv/bin/activate`
-
- `ssh - pip install -r requirements.txt`
-
- `ssh - python __init__.py`
